@@ -1,13 +1,13 @@
 @font-face {
-    font-family: Poppins ;
+    font-family: Poppins;
     src: url(../assets/fonts/Poppins-Regular.ttf);
 }
 
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: Poppins ;
+    font-family: Poppins;
 
 }
 
@@ -89,7 +89,7 @@
 
 /* Hero-section */
 
-.covid{
+.covid {
     color: rgb(88, 167, 184);
 }
 
@@ -144,7 +144,7 @@
     display: flex;
 }
 
-.learn-more{
+.learn-more {
     height: 50px;
     width: 150px;
     background-color: rgb(88, 167, 184);
@@ -153,7 +153,7 @@
     padding: 12px 28px;
 }
 
-.test{
+.test {
     height: 50px;
     width: 180px;
     border: 3px solid rgb(88, 167, 184);
@@ -169,33 +169,48 @@
     border: none;
 }
 
+/* Gif-img */
 
-/* Slider image Height Width */
-.f-img{
-    height: 500px;
+.gif-main{
+    margin-top: 35px;
+}
+.gif {
+    height: 350px;
     width: 100%;
-}
-
-
-/* Contact-sec */
-.main{
-    width: 1345px;
-    margin: auto;
-}
-
-.con-form{
-    width: 100%;
-    height: 600px;
-    /* background-color: aqua; */
-}
-
-.c-mg{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.c-h1{
+.gif-h1 {
+    text-align: center;
+}
+
+.gif img {
+    height: 320px;
+    width: 600px;
+}
+
+
+/* Contact-sec */
+.main {
+    width: 1345px;
+    margin: auto;
+}
+
+.con-form {
+    width: 100%;
+    height: 600px;
+    /* background-color: aqua; */
+}
+
+.c-mg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-h1 {
     text-align: center;
 }
 
@@ -220,7 +235,7 @@ input {
     height: 130px;
 }
 
-.con-btn{
+.con-btn {
     margin-top: 32px;
 }
 
@@ -232,30 +247,31 @@ input {
     color: white;
 }
 
-.c-btn:hover{
+.c-btn:hover {
     background-color: rgb(0, 0, 0);
     box-shadow: 4px 4px 8px rgb(164, 164, 164);
 }
 
 /* Footer */
 
-.main{
+.main {
     margin-top: 45px;
 }
 
-.container-f{
+.container-f {
     display: flex;
     height: 300px;
     margin: auto;
 }
-.f-con{
+
+.f-con {
     height: 40px;
     width: 250px;
     display: flex;
     margin-top: 8px;
 }
 
-.f-con p{
+.f-con p {
     padding-left: 15px;
     margin-top: 35px;
 }
@@ -269,7 +285,7 @@ input {
     margin-top: 15px;
 }
 
-.sub-btn{
+.sub-btn {
     text-decoration: none;
     padding: 17px 55px;
     border-radius: 35px;
@@ -277,16 +293,16 @@ input {
     color: white;
 }
 
-.btn7{
+.btn7 {
     margin-top: 35px;
 }
 
-.sub-btn:hover{
+.sub-btn:hover {
     background-color: rgb(0, 0, 0);
     box-shadow: 4px 4px 8px rgb(164, 164, 164);
 }
 
-.footer-inp{
+.footer-inp {
     height: 40px;
     width: 300px;
     margin-top: 35px;
@@ -297,7 +313,7 @@ input {
 /* Media quries */
 
 @media only screen and (max-width:1342px) {
-    .main-container{
+    .main-container {
         width: 100%;
     }
 
@@ -453,7 +469,7 @@ input {
         flex-direction: column;
     }
 
-    .learn-more{
+    .learn-more {
         height: 50px;
         width: 150px;
         background-color: rgb(88, 167, 184);
@@ -461,8 +477,8 @@ input {
         color: white;
         padding: 12px 28px;
     }
-    
-    .test{
+
+    .test {
         height: 50px;
         width: 180px;
         border: 3px solid rgb(88, 167, 184);
@@ -472,26 +488,35 @@ input {
         margin-left: 0px;
         padding: 5px 2px;
     }
-    
+
     .input {
         position: relative;
         top: 35px;
     }
 }
 
+/* Gif-Media Quries */
+
+@media only screen and (max-width:603px) {
+    .gif img {
+        width: 280px;
+        height: 220px;
+    }
+}
 
 /* Footer-sec */
 
 @media only screen and (max-width:982px) {
 
-    .flex-slider{
+    .flex-slider {
         width: 100%;
     }
-    .card-body{
+
+    .card-body {
         width: 250px;
     }
 
-    .footer-inp{
+    .footer-inp {
         width: 200px;
     }
 }
@@ -499,7 +524,7 @@ input {
 
 @media only screen and (max-width:772px) {
 
-    .container-f{
+    .container-f {
         flex-direction: column;
         height: 800px;
     }
@@ -509,16 +534,17 @@ input {
 /* Contact-sec */
 
 @media only screen and (max-width:1320px) {
-    .main{
+    .main {
         width: 100%;
     }
 }
 
 @media only screen and (max-width:639px) {
 
-    .con-form{
+    .con-form {
         height: 550px;
     }
+
     .c-input-box {
         height: 380px;
         width: 240px;
