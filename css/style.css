@@ -1,0 +1,500 @@
+@font-face {
+    font-family: Poppins ;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Poppins ;
+
+}
+
+.main-container {
+    width: 1345px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 90px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+}
+
+.logo {
+    flex-grow: 1;
+    padding-left: 70px;
+}
+
+.links {
+    flex-grow: 2;
+    min-height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links a,
+.btns a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.btns a {
+    text-decoration: none;
+    background-color: white;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: Poppins;
+    padding-top: 22px;
+}
+
+
+.links a:hover {
+    color: rgb(88, 167, 184);
+}
+
+.btns a:hover {
+    color: rgb(88, 167, 184);
+}
+
+.btns {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 60px;
+}
+
+.btn {
+    width: 250px;
+    height: 60px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+}
+
+.btns .btn:hover {
+    background-color: rgb(88, 167, 184);
+    color: white;
+    border: none;
+}
+
+/* Hero-section */
+
+.covid{
+    color: rgb(88, 167, 184);
+}
+
+.hero-main {
+    min-width: 100%;
+    height: 617px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+}
+
+.hero-content {
+    min-width: 41.5%;
+    margin-top: 105px;
+}
+
+.hero-content .pera-one {
+    margin-top: 100px;
+    margin-left: 76px;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.hero-content .pera-two {
+    margin-top: 15px;
+    margin-left: 76px;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-size: 16px;
+    width: 450px;
+}
+
+.hero-content h1 {
+    margin-top: 15px;
+    margin-left: 76px;
+    font-family: Poppins;
+    font-weight: 600px;
+    font-size: 45px;
+}
+
+.doctors-img img {
+    height: 620px;
+    width: 770px;
+}
+
+.input {
+    position: relative;
+    top: 55px;
+    left: 76px;
+    width: 438px;
+    height: 60px;
+    display: flex;
+}
+
+.learn-more{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(88, 167, 184);
+    text-decoration: none;
+    color: white;
+    padding: 12px 28px;
+}
+
+.test{
+    height: 50px;
+    width: 180px;
+    border: 3px solid rgb(88, 167, 184);
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    padding: 12px 32px;
+}
+
+.input a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+
+/* Sliders */
+.h1{
+    margin: auto;
+    width: 250px;
+}
+.covid-h1{
+    color: rgb(88, 167, 184);
+    margin: auto;
+    margin: 35px 0px;
+}
+.flex-slider{
+    height: 500px;
+    width: 1345px;
+    margin: auto;
+    background-color: rgb(128, 191, 206);
+    display: flex;
+}
+
+.f1{
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.f2{
+    width: 50%;
+    margin-top: 35px;
+    /* background-color: blueviolet; */
+}
+
+.f2-main{
+    margin: auto;
+    width: 550px;
+    height: 450px;
+    color: white;
+    /* background-color: azure; */
+}
+
+.f-btn{
+    margin-top: 50px;
+    height: 50px;
+    width: 190px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+.f-btn:hover{
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+.f-h6{
+    margin-top: 45px;
+}
+
+.f-pera{
+    margin-top: 35px;
+}
+
+
+/* Slider image Height Width */
+.f-img{
+    height: 500px;
+    width: 100%;
+}
+
+/* Footer */
+.container-f{
+    display: flex;
+    height: 300px;
+    margin: auto;
+}
+.f-con{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.f-con p{
+    padding-left: 15px;
+    margin-top: 35px;
+}
+
+.card-body img {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 35px;
+}
+
+.sub-btn{
+    text-decoration: none;
+    padding: 17px 55px;
+    border-radius: 35px;
+    background-color: orange;
+    color: white;
+}
+
+.btn7{
+    margin-top: 35px;
+}
+
+.sub-btn:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
+.footer-inp{
+    height: 40px;
+    width: 300px;
+    margin-top: 35px;
+}
+
+
+
+/* Media quries */
+
+@media only screen and (max-width:1342px) {
+    .main-container{
+        width: 100%;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .links {
+        width: 90%;
+    }
+
+    .btns {
+        gap: 1em;
+    }
+
+}
+
+@media only screen and (max-width:555px) {
+    .header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 90%;
+        gap: 1em;
+        padding: 1em 0;
+    }
+
+    .btns {
+        gap: 1em;
+        flex-direction: column;
+    }
+
+}
+
+/* Hero-Media quries */
+
+@media only screen and (max-width:555px) {
+
+    /* Hero-Section */
+    .hero-content {
+        margin: auto;
+    }
+
+    .hero-content .pera-one {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .hero-content .pera-two {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+
+    .hero-content h1 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .input {
+        position: relative;
+        left: 0;
+    }
+
+    .doctors-img img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+    .hero-main {
+        height: 1050px;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        margin: auto;
+    }
+
+    .doctors-img {
+        margin: auto;
+    }
+}
+
+
+
+@media only screen and (max-width:792px) {
+    .hero-main {
+        width: 100%;
+        height: 1050px;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        margin: auto;
+    }
+
+    .doctors-img img {
+        height: 400px;
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width:785px) {
+    .hero-main {
+        width: 100%;
+        height: 650px;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        margin: auto;
+    }
+
+    .doctors-img img {
+        height: 250px;
+        width: 250px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:458px) {
+    .hero-content .pera-one {
+        width: 70%;
+        margin: auto;
+    }
+
+    .hero-content .pera-two {
+        width: 70%;
+        margin: auto;
+    }
+
+    .hero-content h1 {
+        width: 75%;
+        margin: auto;
+    }
+
+    .input {
+        width: 250px;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .learn-more{
+        height: 50px;
+        width: 150px;
+        background-color: rgb(88, 167, 184);
+        text-decoration: none;
+        color: white;
+        padding: 12px 28px;
+    }
+    
+    .test{
+        height: 50px;
+        width: 180px;
+        border: 3px solid rgb(88, 167, 184);
+        text-decoration: none;
+        color: black;
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 5px 2px;
+    }
+    
+    .input {
+        position: relative;
+        top: 35px;
+    }
+}
+
+
+/* Footer-sec */
+
+@media only screen and (max-width:982px) {
+
+    .flex-slider{
+        width: 100%;
+    }
+    .card-body{
+        width: 250px;
+    }
+
+    .footer-inp{
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width:772px) {
+
+    .container-f{
+        flex-direction: column;
+        height: 800px;
+    }
+}
