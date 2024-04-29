@@ -169,66 +169,6 @@
     border: none;
 }
 
-/* Sliders */
-.h1{
-    margin: auto;
-    width: 250px;
-}
-.covid-h1{
-    color: rgb(88, 167, 184);
-    margin: auto;
-    margin: 35px 0px;
-}
-.flex-slider{
-    height: 500px;
-    width: 1345px;
-    margin: auto;
-    background-color: rgb(128, 191, 206);
-    display: flex;
-}
-
-.f1{
-    width: 50%;
-    /* background-color: aquamarine; */
-}
-
-.f2{
-    width: 50%;
-    margin-top: 35px;
-    /* background-color: blueviolet; */
-}
-
-.f2-main{
-    margin: auto;
-    width: 550px;
-    height: 450px;
-    color: white;
-    /* background-color: azure; */
-}
-
-.f-btn{
-    margin-top: 50px;
-    height: 50px;
-    width: 190px;
-    border: none;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-    color: rgb(8, 8, 8);
-}
-
-.f-btn:hover{
-    background-color: rgb(12, 12, 12);
-    color: white;
-}
-
-.f-h6{
-    margin-top: 45px;
-}
-
-.f-pera{
-    margin-top: 35px;
-}
-
 
 /* Slider image Height Width */
 .f-img{
@@ -236,7 +176,73 @@
     width: 100%;
 }
 
+
+/* Contact-sec */
+.main{
+    width: 1345px;
+    margin: auto;
+}
+
+.con-form{
+    width: 100%;
+    height: 600px;
+    /* background-color: aqua; */
+}
+
+.c-mg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-h1{
+    text-align: center;
+}
+
+.c-input-box {
+    height: 450px;
+    width: 620px;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+input {
+    display: block;
+    width: 600px;
+    height: 65px;
+    margin-top: 15px;
+    outline: none;
+    border: 1px solid rgb(230, 230, 230);
+    padding-left: 15px;
+}
+
+.c-msg {
+    height: 130px;
+}
+
+.con-btn{
+    margin-top: 32px;
+}
+
+.c-btn {
+    text-decoration: none;
+    padding: 17px 55px;
+    border-radius: 35px;
+    background-color: orange;
+    color: white;
+}
+
+.c-btn:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
 /* Footer */
+
+.main{
+    margin-top: 45px;
+}
+
 .container-f{
     display: flex;
     height: 300px;
@@ -260,7 +266,7 @@
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
     padding: 8px;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .sub-btn{
@@ -496,5 +502,35 @@
     .container-f{
         flex-direction: column;
         height: 800px;
+    }
+}
+
+
+/* Contact-sec */
+
+@media only screen and (max-width:1320px) {
+    .main{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+
+    .con-form{
+        height: 550px;
+    }
+    .c-input-box {
+        height: 380px;
+        width: 240px;
+        margin: auto;
+    }
+
+    input {
+        width: 230px;
+        height: 40px;
+    }
+
+    .c-msg {
+        height: 90px;
     }
 }
